@@ -32,7 +32,8 @@ public class LL_Insertion {
         new_node1.next=prev_node.next;
         prev_node.next=new_node1;
 
-    }
+    }//insertion in the end of a linked list
+
     public void append(int new_data){
         Node new_node=new Node(new_data);
         if(head==null){
